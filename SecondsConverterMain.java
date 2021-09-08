@@ -7,7 +7,7 @@
  */
 public class SecondsConverterMain
 {
-    public static void main(){
+    public static void main(String[] args){
         SecondsConverter converter = new SecondsConverter();
         System.out.println("50,391 seconds is equivalent to " + converter.secondsToHMS(50391));
         // TODO: Write at least two more test cases here
